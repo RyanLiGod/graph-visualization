@@ -1,26 +1,30 @@
-# graph-visualization
+# 基于Vue的图数据库可视化
 
-## Project setup
+杭电移动互联实验室可视化项目
+
+## 安装依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### 运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### 编译打包
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+### 路径说明
 
-### Lints and fixes files
-```
-npm run lint
-```
+* `node_modules` : npm安装的包
+* `public` : index入口
+* `src` : 主要项目路径
+  * `assets` : 项目用到的材料，比如图片等
+  * `components` : vue编写的组件
+  * `views` : vue编写的页面
+  * `App.vue` : vue最外层的页面
+  * `main.js` : vue全局控制
+  * `router.js` : vue路由编写
