@@ -107,16 +107,16 @@
 
 <script>
 export default {
-    name: 'app',
+    name: "app",
     data() {
         return {
-            tabName: '',
+            tabName: ""
         };
     },
     watch: {
-        '$route': function(newUrl) {
-            this.tabName = newUrl.name
+        $route: function(newUrl) {
+            this.tabName = newUrl.name;
         }
-    },
+    }
 };
 </script>

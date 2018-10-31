@@ -1,5 +1,5 @@
 <template>
-    <div id="myChart" :style="{width: '300px', height: '300px'}"></div>
+    <div id="myChart" :style="{width: '60vh', height: '400px', margin: '0 auto'}"></div>
 </template>
 
 <script>
@@ -10,11 +10,11 @@ export default {
     },
     methods: {
         drawLine() {
-            // 基于准备好的dom，初始化echarts实例
-            let myChart = this.$echarts.init(
+            let echarts = this.$echarts;
+            let myChart = echarts.init(
                 document.getElementById("myChart")
             );
-            // 绘制图表
+            
             myChart.setOption({
                 title: { text: "在Vue中使用echarts" },
                 tooltip: {},
