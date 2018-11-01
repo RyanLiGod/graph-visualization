@@ -19,12 +19,11 @@ npm run build
 
 ### 路径说明
 
-* `node_modules` : npm安装的包
-* `public` : index入口
+* `node_modules` : NPM 安装的包
+* `public` : index 入口，以及一些静态文件
 * `src` : 主要项目路径
-  * `assets` : 项目用到的材料，比如图片等
-  * `components` : vue编写的组件
-  * `views` : vue编写的页面
-  * `App.vue` : vue最外层的页面
-  * `main.js` : vue全局控制
-  * `router.js` : vue路由编写
+  * `components` : Vue 编写的组件
+  * `views` : Vue 编写的页面
+  * `App.vue` : Vue 最外层的页面
+  * `main.js` : Vue 全局控制
+  * `router.js` : Vue 路由编写
