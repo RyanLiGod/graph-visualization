@@ -3,18 +3,18 @@
 杭电移动互联实验室可视化项目
 
 ## 安装依赖
-```
-npm install
+```shell
+$ npm install
 ```
 
 ### 运行
-```
-npm run serve
+```shell
+$ npm run serve
 ```
 
 ### 编译打包
-```
-npm run build
+```shell
+$ npm run build
 ```
 
 ### 路径说明
@@ -27,3 +27,12 @@ npm run build
   * `App.vue` : Vue 最外层的页面
   * `main.js` : Vue 全局控制
   * `router.js` : Vue 路由编写
+
+## Docker 部署
+
+``` shell
+$ npm run build
+$ docker build -t docker-vue-alpine .
+$ docker run -p 88:80 -d docker-vue-alpine
+```
+
