@@ -38,7 +38,7 @@
                         <BreadcrumbItem>图数据库可视化</BreadcrumbItem>
                         <BreadcrumbItem>{{tabName}}</BreadcrumbItem>
                     </Breadcrumb>
-                    <Content :style="{padding: '40px', minHeight: '280px', background: '#fff'}">
+                    <Content :style="{padding: '40px', minHeight: '280px', background: '#fff', maxHeight: '88vh'}">
                         <router-view/>
                     </Content>
                 </Layout>
